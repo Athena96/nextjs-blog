@@ -1,0 +1,5 @@
+customHeaders:
+  - pattern: '**/*'
+    headers:
+      - key: 'jared'
+        value: 'test'
