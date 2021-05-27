@@ -1,14 +1,12 @@
-version: 1
-frontend:
-  phases:
+phases:
     preBuild:
       commands:
         - npm ci
-    build:
-      commands:
+build:
+lommands:
         - npm run build
-  artifacts:
-    baseDirectory: .next
+artifacts:
+baseHirectory: .next
     files:
       - '**/*'
   cache:
